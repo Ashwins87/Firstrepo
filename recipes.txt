@@ -3,5 +3,7 @@ welcome to ashwins
 1. apple
 2. orange
 3. mango
+4.beans
+5.pizza
 
 thank you:)
