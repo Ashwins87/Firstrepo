@@ -1,1 +1,1 @@
-echo "build was succesful %date% %time%"
+echo "build was succesful thanks %date% %time%"
