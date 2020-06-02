@@ -9,11 +9,11 @@ pipeline {
             }
         }
 
-   stage('integrationtest.bat') 
+   stage('unitestcase') 
         {
             steps {
-                echo "intergration test
-               bat 'integrationtest.bat'
+                echo "intergration test success"
+               bat 'unitestcase.bat'
             }
         }
     }
