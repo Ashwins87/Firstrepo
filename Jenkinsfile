@@ -1,9 +1,11 @@
 pipeline {
-    agent { docker { image 'python:3.5.1' } }
+    agent any
     stages {
-        stage('build') {
+        stage('GIt checkout') 
+        {
             steps {
-                sh 'python --version'
+                echo "checking out"
+                git credentialsId: 'a8418e0e-b6c5-4bb4-812b-ea98df8ce539', url: 'https://github.com/Ashwins87/Firstrepo.git'
             }
         }
     }
