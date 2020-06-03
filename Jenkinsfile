@@ -26,14 +26,7 @@ pipeline {
         }
         
                 
-   stage('integraion test') 
-        {
-            steps {
-                echo "intergration test success"
-               bat 'integrationtest.bat'
-            }
-        }
-        
+ 
    stage('qualitycheck') 
         {
             steps {
