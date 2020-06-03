@@ -5,7 +5,7 @@ pipeline {
         {
             steps {
                 echo "integration test"
-                bat 'integrationtest.bat'
+                
             }
         }
     }
