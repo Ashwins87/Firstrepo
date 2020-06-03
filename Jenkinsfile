@@ -9,6 +9,14 @@ pipeline {
             }
         }
 
+           stage('build') 
+        {
+            steps {
+                echo "intergration test success"
+               bat 'build.bat'
+            }
+        }
+        
    stage('unitestcase') 
         {
             steps {
