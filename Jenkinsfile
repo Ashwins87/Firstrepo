@@ -12,7 +12,7 @@ pipeline {
            stage('build') 
         {
             steps {
-                echo "intergration test success"
+                echo "build success"
                bat 'build.bat'
             }
         }
@@ -20,7 +20,7 @@ pipeline {
    stage('unitestcase') 
         {
             steps {
-                echo "intergration test success"
+                echo "unit test success"
                bat 'unitestcase.bat'
             }
         }
@@ -30,21 +30,21 @@ pipeline {
         {
             steps {
                 echo "intergration test success"
-               bat 'integraiontest.bat'
+               bat 'integrationtest.bat'
             }
         }
         
    stage('qualitycheck') 
         {
             steps {
-                echo "intergration test success"
+                echo "QC success"
                bat 'qualitycheck.bat'
             }
         }
          stage('deploy') 
         {
             steps {
-                echo "intergration test success"
+                echo "deploy success"
                bat 'deploy.bat'
             }
         }
