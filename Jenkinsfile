@@ -4,7 +4,7 @@ pipeline {
         stage('integrationtest') 
         {
             steps {
-                echo "integration test"
+                echo "integration testc is completed"
                 
             }
         }
